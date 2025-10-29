@@ -1,0 +1,27 @@
+# Xcode - User settings
+xcuserdata/
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# DerivedData
+DerivedData/
+*.hmap
+build/
+
+# macOS
+.DS_Store
+
+# Swift
+*.swiftmodule
+.build/
+Packages/
+
+# Permitir solo estos archivos de .xcodeproj
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/project.xcworkspace/
+!*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+!*.xcodeproj/xcshareddata/
